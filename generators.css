@@ -1,0 +1,16 @@
+body {
+    background-color: #f7f7f7;
+    display: flex;              /* Use Flexbox to center content */
+    justify-content: center;    /* Center horizontally */
+    align-items: center;     
+    height: 100vh;   /* Center vertically */        /* Take up full viewport height */                 /* Remove default body margin */
+}
+
+/* Style the button */
+button {
+    color: red;       
+    border-radius: 50%; 
+    height: 150px;         
+    width: 150px;
+    text-align: center;
+}
