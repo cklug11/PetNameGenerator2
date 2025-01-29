@@ -1,16 +1,96 @@
 body {
     background-color: #f7f7f7;
-    display: flex;              /* Use Flexbox to center content */
-    justify-content: center;    /* Center horizontally */
-    align-items: center;     
-    height: 100vh;   /* Center vertically */        /* Take up full viewport height */                 /* Remove default body margin */
+    display: flex;              
+    height: 100vh;
+    justify-content: center;    
+    align-items: center; 
+    
 }
 
-/* Style the button */
-button {
-    color: red;       
-    border-radius: 50%; 
-    height: 150px;         
-    width: 150px;
+a{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex; 
+    font-weight: bold;
+    background-color: #bce0d8;
+    color: #187185;
+    align-items: center;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    justify-content: center;
     text-align: center;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:hover{
+    background-color:#187185;
+    color: #bce0d8;
+    transition: all 0.3s ease-in-out;
+}
+.container{
+    text-align: center;
+    display: flex;              
+    justify-content: center;    
+    align-items: center;  
+    flex-direction: column; 
+}
+#button {
+    color: #524751;    
+    border-radius: 50%; 
+    height: 300px;         
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    border: 30px solid #d8d355;
+    box-shadow: 10px 10px;
+    cursor: pointer;
+    line-height: normal;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+#button:hover{
+    background-color: #d8d355;
+    color:darkgreen; 
+    transition: all 0.3s ease-in-out;
+}
+
+#another-name {
+    margin-top: 40px;
+    color: #524751;    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 20px solid #d8d355;
+    box-shadow: 10px 10px;
+    cursor: pointer;
+    line-height: normal;
+    padding: 10px;
+    display: none;
+}
+
+#another-name:hover{
+    background-color: #d8d355;
+    transition: all 0.1s ease-in-out;
+}
+#random-name{
+    color: darkgreen; 
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 20PX;
+    font-weight: bolder;
 }
