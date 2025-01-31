@@ -1,0 +1,119 @@
+body {
+    background-color: #f7f7f7;
+    display: flex;              
+    height: 100vh;
+    justify-content: center;    
+    align-items: center; 
+    
+}
+
+a{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex; 
+    background-color: #104911;  
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    height: 90px;
+    width: 90px;
+    
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px #fdc500;
+}
+
+a:hover{
+    background-color:#fdc500;;
+    color: #1e7700;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-5px);
+    font-weight: bold;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); 
+
+}
+.container{
+    text-align: center;
+    display: flex;              
+    justify-content: center;    
+    align-items: center;  
+    flex-direction: column;
+    padding: 20px; 
+}
+#button {
+    color: #104911;;    
+    border-radius: 50%; 
+    height: 300px;         
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    border: 30px solid #fdc500;
+    box-shadow: 10px 10px;
+    cursor: pointer;
+    line-height: normal;
+    padding: 10px;
+}
+
+#button:hover{
+    background-color: #fdc500;
+    color:#1e7700; 
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-5px);
+}
+
+#another-name {
+    margin-top: 40px;
+    color: #104911;    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 20px solid #fdc500;;
+    box-shadow: 10px 10px;
+    cursor: pointer;
+    line-height: normal;
+    padding: 10px;
+    display: none;
+}
+
+#another-name:hover{
+    background-color: #fdc500;;
+    transition: all 0.1s ease-in-out;
+    transform: translateY(-5px);
+}
+#intro{
+    color: #1e7700;  
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+#random-name{
+    color: #104911; 
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-transform: uppercase; 
+    letter-spacing: 3px;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
+
+}
