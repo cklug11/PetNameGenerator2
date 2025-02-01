@@ -13,7 +13,7 @@ a{
     top: 20px;
     left: 20px;
     display: flex; 
-    background-color: #104911;  
+    background-color: #190cc9;  
     align-items: center;
     border-radius: 50%;
     color: white;
@@ -23,16 +23,16 @@ a{
     text-align: center;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    box-shadow: 2px 2px #fdc500;
+    box-shadow: 2px 2px #00fdca;
 }
 
 a:hover{
-    background-color:#fdc500;;
-    color: #1e7700;
+    background-color:#00fdca;
+    color: #190cc9; 
     transition: all 0.3s ease-in-out;
     transform: translateY(-5px);
     font-weight: bold;
-    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0px 8px 12px #e41ba4;(0, 0, 0, 0.2); 
 
 }
 .container{
@@ -44,7 +44,7 @@ a:hover{
     padding: 20px; 
 }
 #button {
-    color: #104911;;    
+    color: #190cc9;    
     border-radius: 50%; 
     height: 300px;         
     width: 300px;
@@ -56,7 +56,7 @@ a:hover{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
-    border: 30px solid #fdc500;
+    border: 30px solid #00fdca;
     box-shadow: 10px 10px;
     cursor: pointer;
     line-height: normal;
@@ -64,15 +64,15 @@ a:hover{
 }
 
 #button:hover{
-    background-color: #fdc500;
-    color:#1e7700; 
+    background-color: #00fdca;
+    color: #e41ba4; 
     transition: all 0.3s ease-in-out;
     transform: translateY(-5px);
 }
 
 #another-name {
     margin-top: 40px;
-    color: #104911;    
+    color: #190cc9;   
     text-align: center;
     display: flex;
     justify-content: center;
@@ -81,7 +81,7 @@ a:hover{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
-    border: 20px solid #fdc500;;
+    border: 20px solid #00fdca;
     box-shadow: 10px 10px;
     cursor: pointer;
     line-height: normal;
@@ -90,13 +90,13 @@ a:hover{
 }
 
 #another-name:hover{
-    background-color: #fdc500;;
+    background-color: #00fdca;
     transition: all .2s ease-in-out;
     transform: translateY(-5px);
 }
 
 #intro{
-    color: #1e7700;  
+    color: #e41ba4; 
     text-align: center;
     font-size: 60px;
     font-weight: bold;
@@ -105,7 +105,7 @@ a:hover{
     margin-top: 10px;
 }
 #random-name{
-    color: #104911; 
+    color: #190cc9;
     text-align: center;
     font-size: 80px;
     margin-bottom: 20px;
