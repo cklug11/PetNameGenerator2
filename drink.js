@@ -1,6 +1,6 @@
 
 //for generators
-var intros=['3, 2, 1!','How does this sound:','The moment we\'ve been waiting for<br> Your pet\'s name is:','Ready for it?<br>Your pet\'s name is:','Drum roll please...<br>Your pet\'s name is...','The Universe has spoken.<br>Your pet\'s name henceforth is:','How about:','And the winner is...','The Oscar goes to:','Breaking News Report!<br>Our sources say that your pet\'s name is:','Voila!<br>Your pet\'s name is:'];
+var intros=['How Does This Sound:','Ready For It?<br>Your Pet\'s Name is:','How About:','Sorry Your Order Took So Long!<br>Your Pet\'s Name is:','After Much Deliberation,<br>Your Pet\'s Name Is:','A Classic Refreshment is Here!<Your pet\'s name is:','Voila!<br>Your Pet\'s Name is:','Let Me Pour You A Glass!<br>Your Pet\'s Name is:','Brewed to Perfection!<br>Your Pet\'s Name is:',];
 
 function generateIntro(){
     var randomIntroIndex = Math.floor(Math.random() * intros.length);

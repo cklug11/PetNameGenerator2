@@ -3,8 +3,7 @@ body {
     display: flex;              
     height: 100vh;
     justify-content: center;    
-    align-items: center; 
-    
+    align-items: center;  
 }
 
 a{
@@ -126,16 +125,43 @@ a:hover{
     #another-name{
         margin-top: 30px;
     }
+}
 
+@media(min-width:431px) and (max-width:799px){
+    #intro{
+        font-size: 2.3rem;
+    }
+    #random-name{
+        font-size: 2.3rem;
+        margin: 0;
+    }
+    #another-name{
+        margin-top: 30px;
+    }
 }
 
 @media(min-width:800px){
-    #another-name{
-        font-size: 1.5rem;
+    #intro{
+        font-size: 3.5rem;
     }
+
+    #random-name{
+        font-size: 3.5rem;
+        margin: 0;
+    }
+
+    #another-name{
+        font-size: 2rem;
+       margin-top: 50px;
+    }
+
     #button{
         height: 400px;
         width: 400px;
         font-size: xx-large;
+    }
+    a{
+        height: 110px;
+        width: 110px;
     }
 }
