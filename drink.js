@@ -9,7 +9,7 @@ function generateIntro(){
 }
 
 //Drink Pet Names
-var drinkPetNames = ['Mocha','Affogato','Matcha','Tea','Paloma','Mojito','Sprite','Espresso','Latte','Juice','Soda','Juice Box','Snapple','Dr. Pepper','Seltzer','Milkshake','Macchiato','Slushie','Icee','Prosecco','Martini','Pepsi','Root Beer','Mimosa','Chai','Cosmo','Cocoa','Spritz','Bloody Mary','Cortado','Baja Blast','Cider','Daiquiri','Gimlet','Kahlua','Negroni','Margarita','Sazerac','Americano','Mai Tai','Bellini','Merlot','Riesling','Chardonnay','Pinot','Malbec','Tito','Guiness','Brandy','Sherry','Growler','Rosé','Miller','Amber','Ale','Sunkist','7UP','Orangina','Jarrito','Pilsner','Porter','Stout'];
+var drinkPetNames = ['Mocha','Affogato','Matcha','Tea','Paloma','Mojito','Sprite','Espresso','Latte','Juice','Soda','Juice Box','Snapple','Dr. Pepper','Seltzer','Milkshake','Macchiato','Slushie','Icee','Prosecco','Martini','Pepsi','Root Beer','Mimosa','Chai','Cosmo','Cocoa','Spritz','Bloody Mary','Cortado','Baja Blast','Cider','Daiquiri','Gimlet','Kahlua','Negroni','Margarita','Sazerac','Americano','Mai Tai','Bellini','Merlot','Riesling','Chardonnay','Pinot','Malbec','Tito','Guinness','Brandy','Sherry','Growler','Rosé','Miller','Amber','Ale','Sunkist','7UP','Orangina','Jarrito','Pilsner','Porter','Stout'];
 
 function generateDrinkPetNames(){
     var randomIndex = Math.floor(Math.random() * drinkPetNames.length);
