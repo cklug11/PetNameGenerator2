@@ -1,5 +1,4 @@
 
-//for generators
 var intros=['How Does This Sound:','Ready For It?<br>Your Pet\'s Name is:','How About:','Sorry Your Order Took So Long!<br>Your Pet\'s Name is:','After Much Deliberation,<br>Your Pet\'s Name Is:','A Classic Refreshment is Here!<Your pet\'s name is:','Voila!<br>Your Pet\'s Name is:','Let Me Pour You A Glass!<br>Your Pet\'s Name is:','Brewed to Perfection!<br>Your Pet\'s Name is:',];
 
 function generateIntro(){

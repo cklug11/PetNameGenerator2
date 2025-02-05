@@ -34,7 +34,7 @@ h2{
 }
 
 main{
-    margin-top: 30px;
+    margin-top: 10px;
 
 }
 
@@ -88,21 +88,23 @@ color:#187185;
 }
 
 
-@media(max-width: 430px){
+@media(max-width: 430px) {
     header{
        font-size: 1rem;
     }
     .header-image{
         width: 90%;
     }
-    
+    .cardcontainer{
+        font-size: 1rem;
+    }    
     p{
         font-size: 1.5rem;
     }
 }
 @media(min-width: 431px) and (max-width:767px){
     header{
-       font-size: 1.2rem;
+       font-size: 1rem;
     }
     .header-image{
         width: 80%;
@@ -111,12 +113,17 @@ color:#187185;
     p{
         font-size: 2rem;
     }
+    .cardcontainer{
+        gap: 40px
+    }
 
 }
 
-@media (min-width: 768px) and(max-width:1049px) {
+@media (min-width: 768px) and (max-width:1049px) {
     .cardcontainer {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        margin-top: 50px;
+        grid-template-columns: repeat(4, minmax(125px,1fr));
+        gap:50px;
     }
     .header-image{
         width: 80%;
@@ -126,16 +133,22 @@ color:#187185;
 @media (min-width: 1050px) {
     .cardcontainer {
         margin-top: 50px;
-        grid-template-columns: repeat(6, minmax(150px,1fr));
+        grid-template-columns: repeat(4, minmax(150px,1fr));
     }
      .header-image{
-         width: 70%;
+         width: 60%;
     }
 
     header{
         font-size: 1.5rem;
     }
-    
+    a{
+        font-size: 1.5rem;
+    }
+    .cardcontainer{
+        gap:60px;
+    }
+
     p{
         font-size: 3rem;
     }

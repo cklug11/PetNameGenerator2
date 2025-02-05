@@ -8,7 +8,7 @@ function generateIntro(){
 }
 
 //Sports Pet Names
-var sportsPetNames = ['Wrigley','Camden','Javelin','Pogo Stick','Dodger','Slugger','Shortstop','Puck','Rugby','Steeler','Baton','Titan','Auto','Wimbeldon','Score','Point','FIFA','Pit Stop','Football','Sideline','Caddy','Dash','Sprint','Puck','Derby','Daytona','Locker','Indy','Regatta','Cricket','Racket','Turf','Belay','Bike','Ping Pong','Paddle','Court','Fenway','Squash','Dart','Joust','Knee Pad','Home Run<br>(Homer)','Ace','Birdie','Pom-Pom','Eagle','Bogey','Silver','Gold','Bronze','Huddle','Pitch','Zamboni','Umpire','Bungee','Coach','Ref','Rookie','Stretch','Endurance','Speed','Cardio','Burpee','Spike','Superbowl','Stadium','Arena','Olympics','Stadium','Wembley','Slalom','Marathon'];
+var sportsPetNames = ['Wrigley','Camden','Javelin','Pogo Stick','Dodger','Slugger','Shortstop','Puck','Rugby','Steeler','Baton','Titan','Auto','Wimbeldon','Score','Point','FIFA','Pit Stop','Football','Sideline','Caddie','Dash','Sprint','Puck','Derby','Daytona','Locker','Indy','Dribble','Regatta','Cricket','Racket','Turf','Belay','Bike','Ping Pong','Paddle','Court','Fenway','Squash','Dart','Joust','Knee Pad','Home Run<br>(Homer)','Ace','Birdie','Pom-Pom','Eagle','Bogey','Silver','Gold','Bronze','Mascot','Buzzer','Jersey','Huddle','Pitch','Zamboni','Umpire','Curveball','Zinger','Bungee','Coach','Ref','Rookie','Stretch','Endurance','Speed','Cardio','Burpee','Spike','Superbowl','Stadium','Arena','Olympics','Wembley','Slalom','Marathon','Time Out','Chassis','Pirelli','Nike','Reebok','Adidas','Asics','Wilson','McLaren','Ferrari','Scrum'];
 
 function generateSportsPetNames(){
     var randomIndex = Math.floor(Math.random() * sportsPetNames.length);
