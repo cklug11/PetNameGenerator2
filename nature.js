@@ -1,4 +1,4 @@
-var intros=['How Does This Sound:','May We Suggest:','The Universe Has Spoken.<br>Your Pet\'s Name Henceforth is:','How about:','The Earth Has Chosen:','A Seashell Said Your New Pet\'s Name is:','Introducing:','Mother Nature Suggests The Name:','Welcome To The Family:','The Forest has Whispered Its Secret...<br>Your Pet\'s Name is:', 'The Message in a Bottle says:<br>Your Pet\'s Name is:','It\'s Written in the Stars!<br>Your Pet\'s Name is:','The Newest Addition To The Herd is:']
+var intros=['How Does This Sound:','May We Suggest:','The Universe Has Spoken.<br>Your Pet\'s Name Henceforth is:','How about:','The Earth Has Chosen:','A Seashell Said Your New Pet\'s Name is:','Introducing:','Mother Nature Suggests The Name:','Welcome To The Family:','The Forest Has Whispered Its Secret...<br>Your Pet\'s Name is:', 'The Message In A Bottle says:<br>Your Pet\'s Name is:','It\'s Written in the Stars!<br>Your Pet\'s Name is:','The Newest Addition To The Herd is:']
 
 function generateIntro(){
     var randomIntroIndex = Math.floor(Math.random() * intros.length);
