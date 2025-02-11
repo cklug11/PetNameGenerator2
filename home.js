@@ -10,6 +10,8 @@ function updateTextOnResize() {
     textDiv.innerHTML = "Congratulations On Your New Pet!";  
     }
   }
+  
+
 updateTextOnResize();
 
 window.addEventListener("resize", updateTextOnResize)
